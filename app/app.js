@@ -5,6 +5,8 @@ const logger = require("morgan");
 const methodOverride = require("method-override");
 const cors = require("cors");
 
+app.use(cors());
+
 // Declare app local variable
 app.locals.title = "COFFEE API";
 
@@ -46,7 +48,5 @@ app.use((req, res, next) => {
     .status(404)
     .json({ message: "Resource not found", status: res.statusCode });
 });
-
-app.use(cors());
 
 module.exports = app;
