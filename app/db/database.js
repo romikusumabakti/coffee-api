@@ -1,8 +1,8 @@
 module.exports = {
-	database: 'coffee_menu',
-	host: 'localhost',
-	port: 3306,
-	user: 'root',
-	password: 'Qarrusel1!', // Enter your own password
-	multipleStatements: true
-}
+  database: "sql6509971",
+  host: "sql6.freemysqlhosting.net",
+  port: 3306,
+  user: "sql6509971",
+  password: "ynTcKzMGEW", // Enter your own password
+  multipleStatements: true,
+};
