@@ -1,8 +1,8 @@
 module.exports = {
-  database: "sql6509971",
-  host: "sql6.freemysqlhosting.net",
+  database: "u8342436_coffee",
+  host: "srv81.niagahoster.com",
   port: 3306,
-  user: "sql6509971",
-  password: "ynTcKzMGEW", // Enter your own password
+  user: "u8342436_coffee",
+  password: "fadli1234", // Enter your own password
   multipleStatements: true,
 };
