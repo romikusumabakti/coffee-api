@@ -17,7 +17,7 @@ create table if not exists product (
 	product_id int unsigned not null auto_increment,
     product_name varchar(80) not null unique,
     description varchar(150),
-    product_image blob,
+    product_image text,
     category_id int unsigned,
     created_at timestamp default current_timestamp not null,
     updated_at timestamp not null,
